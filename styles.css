@@ -17,6 +17,15 @@ h3 {
     font-size: 2.5rem;
 }
 
+.page-header {
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+.page-header img {
+    max-width: 80vw;
+}
+
 .sponsors {
     margin-top: 3rem;
     padding-top: 2rem;
