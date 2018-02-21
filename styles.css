@@ -1,5 +1,5 @@
 body {
-    font-size: 16px;
+    font-size: 13pt;
 }
 
 h1, h2, h3 {
@@ -33,6 +33,10 @@ a, a:active, a:visited, a:hover {
 .page-body {
     margin-left: 2vw;
     margin-right: 2vw;
+}
+
+.nav-tabs {
+    margin-bottom: 2rem;
 }
 
 .sponsors {
