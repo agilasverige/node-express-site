@@ -13,26 +13,30 @@
 
 <body>
 
-<div class="container">
+<div class="container p-3">
 
-
-            <h2>30 maj</h2>
-            <div id="program"></div>
+    <div class="card border-0">
+        <div class="card-body">
+            <h2 class="card-title mb-3">30 maj</h2>
+            <div id="program-day-1"></div>
+        </div>
     </div>
-    <div class="col-12 col-lg-6">
-        <h2>31 maj</h2>
+    <div class="card border-0">
+        <div class="card-body">
+            <h2 class="card-title mb-3">31 maj</h2>
+            <div id="program-day-2"></div>
+        </div>
     </div>
 </div>
 
-</div>
 <script id="program-template" type="text/x-handlebars-template">
-        {{#each slots}}
-        <div class="row">
-        <div class="card-group w-100">
+    {{#each slots}}
+    <div class="row">
+        <div class="card-group w-100 mb-3">
             <div class="card">
                 <div class="card-header">
                     <h5 class="card-title">{{localTime start}} - {{localTime stop}}</h5>
-                    <h6 class="card-subtitle mb-2 text-muted">SPACE</h6>
+                    <h6 class="card-subtitle mb-2 text-muted">SPACE </h6>
                 </div>
                 <div class="card-body">
                     <h5 class="card-title">{{space.title}}</h5>
@@ -50,8 +54,8 @@
                 </div>
             </div>
         </div>
-        </div>
-        {{/each}}
+    </div>
+    {{/each}}
 </script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"

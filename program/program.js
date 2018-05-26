@@ -106,14 +106,25 @@ const program = [
 {"start":"2018-05-31T13:42:00.000Z","stop":"2018-05-31T13:52:00.000Z","space":{"title":"Återblick","speaker":""},"tab":{"title":"-","speaker":""}}
 ];
 
+Handlebars.registerHelper('localDate', function(dateString) {
+  const date = new Date(Date.parse(dateString));
+  return date ? date.getDate() + ' maj' : '';
+});
+
 Handlebars.registerHelper('localTime', function(dateString) {
   const date = new Date(Date.parse(dateString));
-  return date && date.toLocaleTimeString() ? date.toLocaleTimeString() : '';
+  return date ? date.toLocaleTimeString().split(':').slice(0,2).join(':') : '';
 });
 
 const source   = document.getElementById("program-template").innerHTML;
 const template = Handlebars.compile(source);
 
-const html = template({ slots: program});
-document.getElementById("program").innerHTML = html;
+const programDay1 = program.filter((slot) => Date.parse(slot.start) < Date.parse('2018-05-31'))
+const programDay2 = program.filter((slot) => Date.parse(slot.start) >= Date.parse('2018-05-31'))
+
+const day1Html = template({ slots: programDay1});
+const day2Html = template({ slots: programDay2});
+
+document.getElementById("program-day-1").innerHTML = day1Html;
+document.getElementById("program-day-2").innerHTML = day2Html;
 
