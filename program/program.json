@@ -1,9 +1,9 @@
 [
-{"start":"2018-05-30T06:00:00.000Z","stop":"2018-05-30T07:00:00.000Z","activities":[{"room":"SPACE","title":"Frukost","speaker":""},{"room":"TAB","title":"","speaker":""}]}
+{"start":"2018-05-30T06:00:00.000Z","stop":"2018-05-30T07:00:00.000Z","activities":[{"room":"SPACE","title":"Frukost","speaker":""}]}
 ,
-{"start":"2018-05-30T07:00:00.000Z","stop":"2018-05-30T07:10:00.000Z","activities":[{"room":"SPACE","title":"Intro till konferensen","speaker":"Pia, Jagge, Ola"},{"room":"TAB","title":"-","speaker":""}]}
+{"start":"2018-05-30T07:00:00.000Z","stop":"2018-05-30T07:10:00.000Z","activities":[{"room":"SPACE","title":"Intro till konferensen","speaker":"Pia, Jagge, Ola"}]}
 ,
-{"start":"2018-05-30T07:12:00.000Z","stop":"2018-05-30T07:22:00.000Z","activities":[{"room":"SPACE","title":"Träffa Agiles hemliga kusin Design Thinking","speaker":"Sigrun Tallungs"},{"room":"TAB","title":"","speaker":""}]}
+{"start":"2018-05-30T07:12:00.000Z","stop":"2018-05-30T07:22:00.000Z","activities":[{"room":"SPACE","title":"Träffa Agiles hemliga kusin Design Thinking","speaker":"Sigrun Tallungs"}]}
 ,
 {"start":"2018-05-30T07:24:00.000Z","stop":"2018-05-30T07:34:00.000Z","activities":[{"room":"SPACE","title":"Teknik - vem får välja det och vem får leva med det?  ","speaker":"Andreas Larsson"},{"room":"TAB","title":"Silent estimation: Bättre estimering på mindre tid","speaker":"Andrew Walker"}]}
 ,
@@ -11,7 +11,7 @@
 ,
 {"start":"2018-05-30T07:48:00.000Z","stop":"2018-05-30T07:58:00.000Z","activities":[{"room":"SPACE","title":"Darwin hade varit agilist","speaker":"Carina Meurlinger"},{"room":"TAB","title":"Experimentera mera!","speaker":"Dan Eidmark"}]}
 ,
-{"start":"2018-05-30T07:58:00.000Z","stop":"2018-05-30T08:20:00.000Z","activities":[{"room":"SPACE","title":"Rast","speaker":""},{"room":"TAB","title":"","speaker":""}]}
+{"start":"2018-05-30T07:58:00.000Z","stop":"2018-05-30T08:20:00.000Z","activities":[{"room":"SPACE","title":"Rast","speaker":""}]}
 ,
 {"start":"2018-05-30T08:20:00.000Z","stop":"2018-05-30T08:30:00.000Z","activities":[{"room":"SPACE","title":"Arkitektur som bidrar till agilitet","speaker":"David Sundelius"},{"room":"TAB","title":"Hur jävla agilt blev det här?","speaker":"Dennis Liljedahl"}]}
 ,
@@ -23,7 +23,7 @@
 ,
 {"start":"2018-05-30T09:08:00.000Z","stop":"2018-05-30T09:18:00.000Z","activities":[{"room":"SPACE","title":"Led hjärnan rätt","speaker":"Jenny Höglund Svensson"},{"room":"TAB","title":"Fem myror är fler än fyra elefanter","speaker":"Ulrika Malmgren "}]}
 ,
-{"start":"2018-05-30T09:18:00.000Z","stop":"2018-05-30T09:28:00.000Z","activities":[{"room":"SPACE","title":"Rast","speaker":""},{"room":"TAB","title":"","speaker":""}]}
+{"start":"2018-05-30T09:18:00.000Z","stop":"2018-05-30T09:28:00.000Z","activities":[{"room":"","title":"Rast","speaker":""}]}
 ,
 {"start":"2018-05-30T09:28:00.000Z","stop":"2018-05-30T09:38:00.000Z","activities":[{"room":"SPACE","title":"Våga experimentera & visualisera!","speaker":"Eva Mattsson & Ingela Strandh"},{"room":"TAB","title":"Genus, glastaket och fyndmarknaden ","speaker":"Dick Lyhammar och Erik Hultgren"}]}
 ,
@@ -31,17 +31,27 @@
 ,
 {"start":"2018-05-30T09:52:00.000Z","stop":"2018-05-30T10:02:00.000Z","activities":[{"room":"SPACE","title":"Hur jag effektivt gjorde alla stakeholders besvikna, och hur en donut blev räddningen","speaker":"Joel  Sanderi"},{"room":"TAB","title":"Storytelling - konsten att berätta verkliga user stories","speaker":"Annika Widmark"}]}
 ,
-{"start":"2018-05-30T10:02:00.000Z","stop":"2018-05-30T11:00:00.000Z","activities":[{"room":"SPACE","title":"Lunch","speaker":""},{"room":"TAB","title":"","speaker":""}]}
+{"start":"2018-05-30T10:02:00.000Z","stop":"2018-05-30T11:00:00.000Z","activities":[{"room":"","title":"Lunch","speaker":""}]}
 ,
-{"start":"2018-05-30T11:00:00.000Z","stop":"2018-05-30T11:40:00.000Z","activities":[{"room":"SPACE","title":"Open Space och Workshop Introduktion","speaker":""},{"room":"TAB","title":"","speaker":""}]}
+{"start":"2018-05-30T11:00:00.000Z","stop":"2018-05-30T11:40:00.000Z","activities":[{"room":"SPACE","title":"Open Space och Workshop Introduktion","speaker":""}]}
 ,
-{"start":"2018-05-30T11:40:00.000Z","stop":"2018-05-30T12:25:00.000Z","activities":[{"room":"SPACE","title":"Open Space Pass 1","speaker":""},{"room":"TAB","title":"","speaker":""}]}
+{"start":"2018-05-30T11:40:00.000Z","stop":"2018-05-30T12:25:00.000Z","activities":[
+  {"room":"Överallt","title":"Open Space Pass 1","speaker":"Du!"},
+  {"room": "Tor 1", "title": "Visualization as a tool to handle complexity. We can improve only what we can see.", "speaker": "Mónica Madrid Costa"},
+  {"room": "Tor 2", "title": "Bowling-kata: TDD för dig som varit för rädd för att fråga", "speaker": "Joakim Holm"}
+]}
 ,
-{"start":"2018-05-30T12:25:00.000Z","stop":"2018-05-30T12:40:00.000Z","activities":[{"room":"SPACE","title":"Rast","speaker":""},{"room":"TAB","title":"","speaker":""}]}
+{"start":"2018-05-30T12:25:00.000Z","stop":"2018-05-30T12:40:00.000Z","activities":[{"room":"","title":"Rast","speaker":""}]}
 ,
-{"start":"2018-05-30T12:40:00.000Z","stop":"2018-05-30T13:25:00.000Z","activities":[{"room":"SPACE","title":"Open Space Pass 2","speaker":""},{"room":"TAB","title":"","speaker":""}]}
+{"start":"2018-05-30T12:40:00.000Z","stop":"2018-05-30T13:25:00.000Z","activities":[
+  {"room":"Överallt","title":"Open Space Pass 2","speaker":"Du!"},
+  {"room": "Tor 1", "title": "Lyssna och bygg förtroende", "speaker": "John Cirverius"},
+  {"room": "Tor 2", "title": "Bowling-kata: TDD för dig som varit för rädd för att fråga", "speaker": "Joakim Holm"},
+  {"room": "Loke 1", "title": "Gruppdynamik i ett nötskal", "speaker": "Håkan Lövén"}
+
+]}
 ,
-{"start":"2018-05-30T13:25:00.000Z","stop":"2018-05-30T13:40:00.000Z","activities":[{"room":"SPACE","title":"Fika","speaker":""},{"room":"TAB","title":"","speaker":""}]}
+{"start":"2018-05-30T13:25:00.000Z","stop":"2018-05-30T13:40:00.000Z","activities":[{"room":"","title":"Fika","speaker":""}]}
 ,
 {"start":"2018-05-30T13:40:00.000Z","stop":"2018-05-30T13:50:00.000Z","activities":[{"room":"SPACE","title":"Tre sorters agila förändringsledare","speaker":"Esbjörn Hyltefors"},{"room":"TAB","title":"Skalning i skuggan av Conway","speaker":"Laszlo Fischer"}]}
 ,
@@ -57,7 +67,7 @@
 ,
 {"start":"2018-05-30T14:52:00.000Z","stop":"2018-05-30T15:02:00.000Z","activities":[{"room":"SPACE","title":"Hur stoppar vi den agila arenarocken?","speaker":"Marcus Ahnve"},{"room":"TAB","title":"Detta behöver du tänka på för att lyckas med din feedback","speaker":"Viktor Cessan"}]}
 ,
-{"start":null,"stop":null,"activities":[{"room":"SPACE","title":"Mingel","speaker":""},{"room":"TAB","title":"","speaker":""}]}
+{"start":null,"stop":null,"activities":[{"room":"","title":"Mingel","speaker":""}]}
 ,
 {"start":"2018-05-31T07:00:00.000Z","stop":"2018-05-31T07:10:00.000Z","activities":[{"room":"SPACE","title":"Hur gör du för att förstå dina användare?","speaker":"My Amori"},{"room":"TAB","title":"Is Yoda really an agile coach?","speaker":"Gitte Klitgaard"}]}
 ,
@@ -69,9 +79,9 @@
 ,
 {"start":"2018-05-31T07:48:00.000Z","stop":"2018-05-31T07:58:00.000Z","activities":[{"room":"SPACE","title":"Strategisk produktutveckling i en föränderlig miljö","speaker":"Nina Boljang"},{"room":"TAB","title":"Ett rött piller för din agilitet","speaker":"Per Lundholm"}]}
 ,
-{"start":"2018-05-31T07:58:00.000Z","stop":"2018-05-31T08:20:00.000Z","activities":[{"room":"SPACE","title":"Rast","speaker":""},{"room":"TAB","title":"","speaker":""}]}
+{"start":"2018-05-31T07:58:00.000Z","stop":"2018-05-31T08:20:00.000Z","activities":[{"room":"","title":"Rast","speaker":""}]}
 ,
-{"start":"2018-05-31T08:20:00.000Z","stop":null,"activities":[{"room":"SPACE","title":"Engagerade teammöten - Lean Coffee Style","speaker":"David Asarnoj"},{"room":"TAB","title":"Vägledd av smärta","speaker":"Petter Wigle"}]}
+{"start":"2018-05-31T08:20:00.000Z","stop":"2018-05-31T08:30","activities":[{"room":"SPACE","title":"Engagerade teammöten - Lean Coffee Style","speaker":"David Asarnoj"},{"room":"TAB","title":"Vägledd av smärta","speaker":"Petter Wigle"}]}
 ,
 {"start":"2018-05-31T08:32:00.000Z","stop":"2018-05-31T08:42:00.000Z","activities":[{"room":"SPACE","title":"Schimpanser, Scaled agile och Scanias Servicemarknadverktyg","speaker":"Ola Ramström"},{"room":"TAB","title":"Musikproduktion som en iterativ, distribuerad, agil process","speaker":"Rickard Westman"}]}
 ,
@@ -81,7 +91,7 @@
 ,
 {"start":"2018-05-31T09:08:00.000Z","stop":"2018-05-31T09:18:00.000Z","activities":[{"room":"SPACE","title":"Minimum Viable Security","speaker":"Sebastian Åkerman"},{"room":"TAB","title":"Friskt vågat, hälften jobbat!","speaker":"Jimmy Sjölund"}]}
 ,
-{"start":"2018-05-31T09:18:00.000Z","stop":"2018-05-31T09:30:00.000Z","activities":[{"room":"SPACE","title":"Rast","speaker":""},{"room":"TAB","title":"","speaker":""}]}
+{"start":"2018-05-31T09:18:00.000Z","stop":"2018-05-31T09:30:00.000Z","activities":[{"room":"","title":"Rast","speaker":""}]}
 ,
 {"start":"2018-05-31T09:30:00.000Z","stop":"2018-05-31T09:40:00.000Z","activities":[{"room":"SPACE","title":"Rapport från kanten av min förmåga","speaker":"Thomas Svensson"},{"room":"TAB","title":"Grupper - hur de bildas, varför de hatar varandra och vad vi kan göra åt det","speaker":"Stefan Norinder"}]}
 ,
@@ -89,19 +99,28 @@
 ,
 {"start":"2018-05-31T09:54:00.000Z","stop":"2018-05-31T10:04:00.000Z","activities":[{"room":"SPACE","title":"Jesusbarnet och stjärnan -- men *när* är ni klara?","speaker":"Staffan Nöteberg"},{"room":"TAB","title":"Kan jag beställa innovation av dig?","speaker":"Tom Tingstadius"}]}
 ,
-{"start":"2018-05-31T10:04:00.000Z","stop":"2018-05-31T11:00:00.000Z","activities":[{"room":"SPACE","title":"Lunch","speaker":""},{"room":"TAB","title":"","speaker":""}]}
+{"start":"2018-05-31T10:04:00.000Z","stop":"2018-05-31T11:00:00.000Z","activities":[{"room":"","title":"Lunch","speaker":""}]}
 ,
-{"start":"2018-05-31T11:00:00.000Z","stop":"2018-05-31T11:25:00.000Z","activities":[{"room":"SPACE","title":"Open Space och Workshop Introduktion","speaker":""},{"room":"TAB","title":"","speaker":""}]}
+{"start":"2018-05-31T11:00:00.000Z","stop":"2018-05-31T11:25:00.000Z","activities":[{"room":"SPACE","title":"Open Space och Workshop Introduktion","speaker":""}]}
 ,
-{"start":"2018-05-31T11:25:00.000Z","stop":"2018-05-31T12:10:00.000Z","activities":[{"room":"SPACE","title":"Open Space Pass 1","speaker":"Du?"},{"room":"TAB","title":"","speaker":""}]}
+{"start":"2018-05-31T11:25:00.000Z","stop":"2018-05-31T12:10:00.000Z","activities":[
+  {"room":"Överallt","title":"Open Space Pass 1","speaker":"Du!"},
+  {"room":"Tor 1","title":"Co-Creation Journey Mapping – deltagande intervjuer med användare","speaker":"Anneli Olsen"},
+  {"room":"Tor 2","title":"Mobbfacilitering","speaker":"Lennart Fridén"},
+  {"room":"Loke 1","title":"Prototypdrivet arbetsätt","speaker":"Anette Lovas och Ulrika Park"}
+]}
 ,
-{"start":"2018-05-31T12:10:00.000Z","stop":"2018-05-31T12:25:00.000Z","activities":[{"room":"SPACE","title":"Rast","speaker":""},{"room":"TAB","title":"","speaker":""}]}
+{"start":"2018-05-31T12:10:00.000Z","stop":"2018-05-31T12:25:00.000Z","activities":[{"room":"","title":"Rast","speaker":""}]}
 ,
-{"start":"2018-05-31T12:25:00.000Z","stop":"2018-05-31T13:10:00.000Z","activities":[{"room":"SPACE","title":"Open Space Pass 2","speaker":"Du?"},{"room":"TAB","title":"","speaker":""}]}
+{"start":"2018-05-31T12:25:00.000Z","stop":"2018-05-31T13:10:00.000Z","activities":[
+  {"room":"Överallt","title":"Open Space Pass 2","speaker":"Du!"},
+  {"room":"Tor 1","title":"Hur man utför en design studio","speaker":"Camilla Romander"},
+  {"room":"Tor 2","title":"Mobbfacilitering","speaker":"Lennart Fridén"}
+  ]}
 ,
-{"start":"2018-05-31T13:10:00.000Z","stop":"2018-05-31T13:30:00.000Z","activities":[{"room":"SPACE","title":"Fika","speaker":""},{"room":"TAB","title":"","speaker":""}]}
+{"start":"2018-05-31T13:10:00.000Z","stop":"2018-05-31T13:30:00.000Z","activities":[{"room":"","title":"Fika","speaker":""}]}
 ,
-{"start":"2018-05-31T13:30:00.000Z","stop":"2018-05-31T13:40:00.000Z","activities":[{"room":"SPACE","title":"Sluta försöka testa in kvalité!","speaker":"Tobbe Gyllebring"},{"room":"TAB","title":"","speaker":""}]}
+{"start":"2018-05-31T13:30:00.000Z","stop":"2018-05-31T13:40:00.000Z","activities":[{"room":"SPACE","title":"Sluta försöka testa in kvalité!","speaker":"Tobbe Gyllebring"}]}
 ,
-{"start":"2018-05-31T13:42:00.000Z","stop":"2018-05-31T13:52:00.000Z","activities":[{"room":"SPACE","title":"Återblick","speaker":""},{"room":"TAB","title":"-","speaker":""}]}
+{"start":"2018-05-31T13:42:00.000Z","stop":"2018-05-31T13:52:00.000Z","activities":[{"room":"SPACE","title":"Återblick","speaker":""}]}
 ]
