@@ -1,0 +1,63 @@
+<!doctype html>
+
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Program Agila Sverige 2018</title>
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+    <link rel="icon" href="../favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="../styles.css"/>
+</head>
+
+<body>
+
+<div class="container">
+
+
+            <h2>30 maj</h2>
+            <div id="program"></div>
+    </div>
+    <div class="col-12 col-lg-6">
+        <h2>31 maj</h2>
+    </div>
+</div>
+
+</div>
+<script id="program-template" type="text/x-handlebars-template">
+        {{#each slots}}
+        <div class="row">
+        <div class="card-group w-100">
+            <div class="card">
+                <div class="card-header">
+                    <h5 class="card-title">{{localTime start}} - {{localTime stop}}</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">SPACE</h6>
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">{{space.title}}</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">{{space.speaker}}</h6>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header">
+                    <h5 class="card-title">{{localTime start}} - {{localTime stop}}</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">TAB</h6>
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">{{tab.title}}</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">{{tab.speaker}}</h6>
+                </div>
+            </div>
+        </div>
+        </div>
+        {{/each}}
+</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.11/handlebars.js"></script>
+<script src="./program.js"></script>
+</body>
+</html>
