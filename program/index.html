@@ -33,32 +33,21 @@
     {{#each slots}}
     <div class="row">
         <div class="card-group w-100 mb-3">
+            {{#each activities}}
             <div class="card">
                 <div class="card-header">
-                    <h5 class="card-title">{{localTime start}} - {{localTime stop}}</h5>
-                    <h6 class="card-subtitle mb-2 text-muted">SPACE </h6>
+                    <h5 class="card-title">{{localTime ../start}} - {{localTime ../stop}}</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">{{room}}</h6>
                 </div>
                 <div class="card-body">
-                    <h5 class="card-title">{{space.title}}</h5>
-                    <h6 class="card-subtitle mb-2 text-muted">{{space.speaker}}</h6>
+                    <h5 class="card-title">{{title}}</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">{{speaker}}</h6>
                     <p class="card-text">
-                        {{space.description}}
+                        {{description}}
                     </p>
                 </div>
             </div>
-            <div class="card">
-                <div class="card-header">
-                    <h5 class="card-title">{{localTime start}} - {{localTime stop}}</h5>
-                    <h6 class="card-subtitle mb-2 text-muted">TAB</h6>
-                </div>
-                <div class="card-body">
-                    <h5 class="card-title">{{tab.title}}</h5>
-                    <h6 class="card-subtitle mb-2 text-muted">{{tab.speaker}}</h6>
-                    <p class="card-text">
-                        {{tab.description}}
-                    </p>
-                </div>
-            </div>
+            {{/each}}
         </div>
     </div>
     {{/each}}
