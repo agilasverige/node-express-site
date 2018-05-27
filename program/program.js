@@ -482,6 +482,8 @@ const program = [
   }
 ];
 
+const weekdays = [ 'söndag', 'måndag', 'tisdag', 'onsdag', 'torsdag', 'fredag', 'lördag' ]
+
 $.get("./program.json", function (program) {
   $.get("./descriptions.json", function (descriptions) {
 
@@ -502,9 +504,16 @@ $.get("./program.json", function (program) {
         });
     }
 
+    Handlebars.registerHelper('timestamp', function (dateString) {
+      return Date.parse(dateString);
+    });
+
     Handlebars.registerHelper('localDate', function (dateString) {
-      const date = new Date(Date.parse(dateString));
-      return date ? date.getDate() + ' maj' : '';
+
+      const number = Date.parse(dateString);
+      let dayOfWeek = new Date(number).getDay();
+      debugger;
+      return weekdays[dayOfWeek];
     });
 
     Handlebars.registerHelper('localTime', function (dateString) {

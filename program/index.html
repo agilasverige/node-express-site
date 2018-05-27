@@ -34,10 +34,13 @@
     <div class="row">
         <div class="card-group w-100 mb-3">
             {{#each activities}}
-            <div class="card">
+            <div class="card" data-start-time="{{timestamp ../start}}">
                 <div class="card-header">
-                    <h5 class="card-title">{{localTime ../start}} - {{localTime ../stop}}</h5>
-                    <h6 class="card-subtitle mb-2 text-muted">{{room}}</h6>
+                    <div class="d-flex justify-content-between">
+                        <h5 class="card-title">{{localTime ../start}} - {{localTime ../stop}}</h5>
+                        <h6 class="card-title text-muted">{{localDate ../start}}</h6>
+                    </div>
+                    <h6 class="card-subtitle mb-2 text-muted">{{room}} </h6>
                 </div>
                 <div class="card-body">
                     <h5 class="card-title">{{title}}</h5>
