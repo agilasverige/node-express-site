@@ -525,14 +525,41 @@ $.get("./program.json", function (program) {
     const template = Handlebars.compile(source);
 
     const programWithDescriptions = addDescriptions(program);
-    const programDay1 = programWithDescriptions.filter((slot) => Date.parse(slot.start) < Date.parse('2018-05-31'))
-    const programDay2 = programWithDescriptions.filter((slot) => Date.parse(slot.start) >= Date.parse('2018-05-31'))
+    const programDay1 = programWithDescriptions.filter((slot) => Date.parse(slot.start) < Date.parse('2018-05-31'));
+    const programDay2 = programWithDescriptions.filter((slot) => Date.parse(slot.start) >= Date.parse('2018-05-31'));
 
     const day1Html = template({slots: programDay1});
     const day2Html = template({slots: programDay2});
 
     document.getElementById("program-day-1").innerHTML = day1Html;
     document.getElementById("program-day-2").innerHTML = day2Html;
+
+    const startTimes = program.map(slot => Date.parse(slot.start));
+
+    function findCurrentAndNext(now) {
+
+      const nextIndex = startTimes.findIndex((timestamp) => timestamp >= now);
+      if (nextIndex > 0) {
+        return { current: startTimes[nextIndex - 1], next: startTimes[nextIndex] };
+      }
+      return { current: 0, next: 0 };
+    }
+
+    function markCurrentSlot() {
+      const now = new Date();
+      const currentAndNext = findCurrentAndNext(now);
+
+      $('.current').removeClass('current');
+      $('.next').removeClass('next');
+      const current = $('[data-start-time=' + currentAndNext.current + ']').addClass('current').get(0);
+      $('[data-start-time=' + currentAndNext.next + ']').addClass('next');
+      if (current) {
+        current.scrollIntoView();
+      }
+    }
+
+    markCurrentSlot();
+    window.setInterval(markCurrentSlot, 60000);
   });
 });
 
