@@ -510,9 +510,7 @@ $.get("./program.json", function (program) {
 
     Handlebars.registerHelper('localDate', function (dateString) {
 
-      const number = Date.parse(dateString);
-      let dayOfWeek = new Date(number).getDay();
-      debugger;
+      const dayOfWeek = new Date(Date.parse(dateString)).getDay();
       return weekdays[dayOfWeek];
     });
 
