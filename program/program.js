@@ -545,6 +545,8 @@ $.get("./program.json", function (program) {
 
     function markCurrentSlot() {
       const now = new Date();
+      now.setDate(30);
+      now.setHours(12);
       const currentAndNext = findCurrentAndNext(now);
 
       $('.current').removeClass('current');
