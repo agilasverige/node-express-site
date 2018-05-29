@@ -21,7 +21,7 @@
 ,
 {"start":"2018-05-30T08:56:00.000Z","stop":"2018-05-30T09:06:00.000Z","activities":[{"room":"SPACE","title":"Vi är agila, men vår arkitektur är gjuten i betong :-(","speaker":"Jan Grape"},{"room":"TAB","title":"Big Data == Lean Data","speaker":"Lars Albertsson"}]}
 ,
-{"start":"2018-05-30T09:08:00.000Z","stop":"2018-05-30T09:18:00.000Z","activities":[{"room":"SPACE","title":"Led hjärnan rätt","speaker":"Jenny Höglund Svensson"},{"room":"TAB","title":"Fem myror är fler än fyra elefanter","speaker":"Ulrika Malmgren "}]}
+{"start":"2018-05-30T09:08:00.000Z","stop":"2018-05-30T09:18:00.000Z","activities":[{"room":"SPACE","title":"Led hjärnan rätt","speaker":"Jenny Höglund Svensson"},{"room":"TAB","title":"En lättrörlig arkitektur håller attackerna borta","speaker":"Dan Bergh Johnsson"}]}
 ,
 {"start":"2018-05-30T09:18:00.000Z","stop":"2018-05-30T09:28:00.000Z","activities":[{"room":"","title":"Rast","speaker":""}]}
 ,
@@ -57,7 +57,7 @@
 ,
 {"start":"2018-05-30T13:52:00.000Z","stop":"2018-05-30T14:02:00.000Z","activities":[{"room":"SPACE","title":"Oops we did it again","speaker":"Magnus Tholén"},{"room":"TAB","title":"Vårt största projekt någonsin utan planer och kontroll?!","speaker":"Maria Gustafsson, Maya Jernström "}]}
 ,
-{"start":"2018-05-30T14:04:00.000Z","stop":"2018-05-30T14:14:00.000Z","activities":[{"room":"SPACE","title":"Teaching agile post waterfall","speaker":"Markus Elving"},{"room":"TAB","title":"Varför ditt företag misslyckas uppnå sina affärsmål eller att omorganisera och vad du kan göra åt det","speaker":"Martin Wasielewski"}]}
+{"start":"2018-05-30T14:04:00.000Z","stop":"2018-05-30T14:14:00.000Z","activities":[{"room":"SPACE","title":"Fem myror är fler än fyra elefanter","speaker":"Ulrika Malmgren"},{"room":"TAB","title":"Varför ditt företag misslyckas uppnå sina affärsmål eller att omorganisera och vad du kan göra åt det","speaker":"Martin Wasielewski"}]}
 ,
 {"start":"2018-05-30T14:16:00.000Z","stop":"2018-05-30T14:26:00.000Z","activities":[{"room":"SPACE","title":"Agile Governance - Att fostra en agil kultur","speaker":"Matti Klasson"},{"room":"TAB","title":"Aktivitetsbaserade kontor + Agile = Flexibelt och superbra. Eller?","speaker":"Mia Kolmodin"}]}
 ,
