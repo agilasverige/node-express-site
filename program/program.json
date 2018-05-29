@@ -21,7 +21,7 @@
 ,
 {"start":"2018-05-30T08:56:00.000Z","stop":"2018-05-30T09:06:00.000Z","activities":[{"room":"SPACE","title":"Vi är agila, men vår arkitektur är gjuten i betong :-(","speaker":"Jan Grape"},{"room":"TAB","title":"Big Data == Lean Data","speaker":"Lars Albertsson"}]}
 ,
-{"start":"2018-05-30T09:08:00.000Z","stop":"2018-05-30T09:18:00.000Z","activities":[{"room":"SPACE","title":"Led hjärnan rätt","speaker":"Jenny Höglund Svensson"},{"room":"TAB","title":"En lättrörlig arkitektur håller attackerna borta","speaker":"Dan Bergh Johnsson"}]}
+{"start":"2018-05-30T09:08:00.000Z","stop":"2018-05-30T09:18:00.000Z","activities":[{"room":"SPACE","title":"Led hjärnan rätt","speaker":"Jenny Höglund Svensson"},{"room":"TAB","title":"3R - en lättrörlig arkitektur håller attackerna borta","speaker":"Dan Bergh Johnsson"}]}
 ,
 {"start":"2018-05-30T09:18:00.000Z","stop":"2018-05-30T09:28:00.000Z","activities":[{"room":"","title":"Rast","speaker":""}]}
 ,
@@ -81,7 +81,7 @@
 ,
 {"start":"2018-05-31T07:58:00.000Z","stop":"2018-05-31T08:20:00.000Z","activities":[{"room":"","title":"Rast","speaker":""}]}
 ,
-{"start":"2018-05-31T08:20:00.000Z","stop":"2018-05-31T08:30","activities":[{"room":"SPACE","title":"Engagerade teammöten - Lean Coffee Style","speaker":"David Asarnoj"},{"room":"TAB","title":"Vägledd av smärta","speaker":"Petter Wigle"}]}
+{"start":"2018-05-31T08:20:00.000Z","stop":"2018-05-31T08:30:00.000Z","activities":[{"room":"SPACE","title":"Engagerade teammöten - Lean Coffee Style","speaker":"David Asarnoj"},{"room":"TAB","title":"Vägledd av smärta","speaker":"Petter Wigle"}]}
 ,
 {"start":"2018-05-31T08:32:00.000Z","stop":"2018-05-31T08:42:00.000Z","activities":[{"room":"SPACE","title":"Schimpanser, Scaled agile och Scanias Servicemarknadverktyg","speaker":"Ola Ramström"},{"room":"TAB","title":"Musikproduktion som en iterativ, distribuerad, agil process","speaker":"Rickard Westman"}]}
 ,
