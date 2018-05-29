@@ -3,7 +3,7 @@
 ,
 {"start":"2018-05-30T07:00:00.000Z","stop":"2018-05-30T07:10:00.000Z","activities":[{"room":"SPACE","title":"Intro till konferensen","speaker":"Pia, Jagge, Ola"}]}
 ,
-{"start":"2018-05-30T07:12:00.000Z","stop":"2018-05-30T07:22:00.000Z","activities":[{"room":"SPACE","title":"Träffa Agiles hemliga kusin Design Thinking","speaker":"Sigrun Tallungs"}]}
+{"start":"2018-05-30T07:12:00.000Z","stop":"2018-05-30T07:22:00.000Z","activities":[{"room":"SPACE","title":"Träffa Agiles hemliga kusin Design Thinking","speaker":"Sigrun Tallungs"}, {"room":"TAB","title":"Är AI självorganiserande?","speaker":"Anna Odhner och Jonas Hermansson"}]}
 ,
 {"start":"2018-05-30T07:24:00.000Z","stop":"2018-05-30T07:34:00.000Z","activities":[{"room":"SPACE","title":"Teknik - vem får välja det och vem får leva med det?  ","speaker":"Andreas Larsson"},{"room":"TAB","title":"Silent estimation: Bättre estimering på mindre tid","speaker":"Andrew Walker"}]}
 ,
