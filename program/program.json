@@ -45,9 +45,9 @@
 ,
 {"start":"2018-05-30T12:40:00.000Z","stop":"2018-05-30T13:25:00.000Z","activities":[
   {"room":"Överallt","title":"Open Space Pass 2","speaker":"Du!"},
-  {"room": "Tor 1", "title": "Lyssna och bygg förtroende", "speaker": "John Cirverius"},
+  {"room": "Embla 2", "title": "Lyssna och bygg förtroende", "speaker": "John Cirverius"},
   {"room": "Tor 2", "title": "Bowling-kata: TDD för dig som varit för rädd för att fråga", "speaker": "Joakim Holm"},
-  {"room": "Loke 1", "title": "Gruppdynamik i ett nötskal", "speaker": "Håkan Lövén"}
+  {"room": "Tor 1", "title": "Gruppdynamik i ett nötskal", "speaker": "Håkan Lövén"}
 
 ]}
 ,
