@@ -551,7 +551,9 @@ $.get("./program.json", function (program) {
       $('.next').removeClass('next');
       const current = $('[data-start-time=' + currentAndNext.current + ']').addClass('current').get(0);
       $('[data-start-time=' + currentAndNext.next + ']').addClass('next');
-      if (current) {
+      console.log(window.location.hash);
+      if (current && (window.location.hash === "#next")) {
+        console.log("scrolling to " + current);
         current.scrollIntoView();
       }
     }
