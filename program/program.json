@@ -105,9 +105,9 @@
 ,
 {"start":"2018-05-31T11:25:00.000Z","stop":"2018-05-31T12:10:00.000Z","activities":[
   {"room":"Överallt","title":"Open Space Pass 1","speaker":"Du!"},
-  {"room":"Tor 1","title":"Co-Creation Journey Mapping – deltagande intervjuer med användare","speaker":"Anneli Olsen"},
+  {"room":"Loke 1","title":"Co-Creation Journey Mapping – deltagande intervjuer med användare","speaker":"Anneli Olsen"},
   {"room":"Tor 2","title":"Mobbfacilitering","speaker":"Lennart Fridén"},
-  {"room":"Loke 1","title":"Prototypdrivet arbetsätt","speaker":"Anette Lovas och Ulrika Park"}
+  {"room":"Tor 1","title":"Prototypdrivet arbetsätt","speaker":"Anette Lovas och Ulrika Park"}
 ]}
 ,
 {"start":"2018-05-31T12:10:00.000Z","stop":"2018-05-31T12:25:00.000Z","activities":[{"room":"","title":"Rast","speaker":""}]}
